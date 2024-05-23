@@ -1,0 +1,9 @@
+Pipe Operator in case statements:
+
+Python is case sensitive.
+
+Pipe operator in  case satatements as  "or" keyword.
+
+pipe operator is represented  by "|"
+
+Pattern matching to match list or other iterable datatypes in python.
