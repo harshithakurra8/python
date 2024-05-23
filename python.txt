@@ -58,4 +58,3 @@ It is used to provide values when it is demanded only.
  yield Statement - yield a number
 
 
- pipe operator is used to join two Dictionaries together.
