@@ -50,3 +50,75 @@ name,*cache,is_programmer=(
 print(cache)
 
 #Arguments Unpacking
+contacts={
+    "Joe":8767,
+     "Dale":9880
+     
+}
+def add_contacts(name, info):
+    contacts[name.capitalize()]=info
+    john=("John",67)
+    add_contacts(**john)
+
+#Walrus := Operator
+print(
+    (num:=2)
+)
+
+#pipe| operator
+
+friends={
+    "joe":8988,
+    "Peter":8679
+}
+
+kyle={"kyle":6877}
+
+contacts=kyle|friends
+
+print(contacts)
+
+#this also works with update methos
+
+friends={
+    "joe":8988,
+    "Peter":8679
+}
+
+contacts={"kyle":6877}
+
+contacts.update(friends)
+contacts|=friends
+
+print(contacts)
+
+#Variable scope
+num=0
+def change():
+    num=1
+change()
+print(num)
+
+
+num=0
+def change(x):
+    x=1
+    print(x)
+change(0)
+print(globals())
+
+globals()['num']=0
+input()
+def change (x):
+    x=1
+    print(locals())
+change(0)
+
+#Python REPL
+name="Dale"
+
+def exclaim():
+    return"?!"
+
+def root(num):
+    return pow(num,.5)

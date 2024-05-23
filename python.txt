@@ -1,0 +1,61 @@
+Slash codes:
+\n-new line in python  \t-insert a tab space
+
+Percentage String Substitution
+String Concatenation
+String formating
+
+String .format() method:
+we can use format method to formatthe String with positional arguments and keyword arguments.
+
+Formatted Strings:
+To create a formatted string prefix  it with f and use curly braces and we can insert any expression or variable.
+
+Array:
+   It is a sequence of elements which share the same datatype.
+
+Stack:
+Stack is a datastructure which is Last in First out.
+
+Queue:
+Queue is a datastructure which is First in First out.
+
+Dictionaries:
+
+Dictionaries are key:value pairs.
+
+Hashing means changing one value to something else which means of different purposes and here value got compressed and easier to store in memory.
+
+A tuple is a hashable data type.
+
+MappingProxy type:
+
+We change a dictionary into immunable dictionary.
+
+It is only readable not writeable.
+
+Using MappingProxyType we can create proxy of a dictionary.
+
+Simple Namespace:
+
+To use . operator  to access the values from ofcourse not over a dictionary or class instead.
+
+Named Tuple:
+
+A tuple can not be changable or modified.
+
+Iterators&Generators:
+
+All the sequence datatypes or Arrays can be iterated over thatswhy it is called iterable.
+
+Generator:
+A Generator is much like a  iterable we can run for loop in generator.
+
+A generator does not have the values like list.
+
+It is used to provide values when it is demanded only.
+
+ yield Statement - yield a number
+
+
+ pipe operator is used to join two Dictionaries together.
