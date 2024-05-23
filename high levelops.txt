@@ -1,0 +1,41 @@
+High level ops
+
+Tuple unpacking
+    dictionary unpacking
+    
+    for list we can unpack with * and for dictionary we can unpack with **
+
+Tuple Packing
+
+    If you don't want the values write *cache.   
+
+Global functions is a pointer of global dictionary.
+
+promp is where we can write line by line.
+
+Pipe operator:
+      Using pipe operator we can join two dictionaries together.
+
+Packing? unpacking?
+       
+       when we define our function we can take . arbitary number of positional arguments with the *operator and we can take arbitary number as keyword arguments with ** operator.
+
+       we call we can unpack values Using** when we call a function or create a value we can use * as unpacking operator.
+
+       when we declare or receive arguments we can use that as packing operator.
+
+
+Walrud:= Operator:
+    
+    If you are performing an  operation if  your creating values on the fly then if you want to store them for later  use .
+    then you can define walrus operator on the fly then it can make that value available for later use.
+
+python REPL:
+
+It is executed in terminal
+
+python -i -m
+
+-i interactive model
+
+-m  builtin module
