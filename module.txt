@@ -1,0 +1,43 @@
+Moduel Attribute:
+Just like functions we can also add documentation strings to our modules and also access it attributes.
+
+pip - package installer  for python:
+
+In python we have pip package manager.
+
+With pip command we can manage third party package in our system.
+
+#website : pypi.org
+
+This is example we can execute in terminal:
+
+pip --version
+
+python -m pip #work around of pip
+
+pip install Faker
+
+python
+
+>>>import Faker
+>>>fake=faker.Faker()
+>>>fake.name()
+
+To uninstall
+   pip uninstall faker
+
+
+venv-Virtual Environment :
+
+A project with its specific third party packages installed in it.
+
+To create a virtual environment in python we can use the venv module that is built-in with python.
+
+
+commands:
+
+python -m venv.\venv  #it can create a virtual directory
+
+Virtual Environments which we use and isolate our project modules and packages so that it is not installecd globally instead.
+
+we just have a environment or certain directory all the packagws used  in the directory is installed.
