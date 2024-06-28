@@ -1,0 +1,4 @@
+class variable:
+     class variable are shared among instances
+instance variable:
+    instance variable are unique to each instance

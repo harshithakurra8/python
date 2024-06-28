@@ -1,4 +1,4 @@
-Moduel Attribute:
+Module Attribute:
 Just like functions we can also add documentation strings to our modules and also access it attributes.
 
 pip - package installer  for python:
