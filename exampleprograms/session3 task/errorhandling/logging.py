@@ -4,19 +4,30 @@
 #1.	Use try and except blocks to handle potential errors.
 #2.	Implement assertions to validate function inputs.
 #3.	Use logging to track the application’s execution and errors.
-import logging
 
-# Configure logging
-logging.basicConfig(filename='app.log', level=logging.DEBUG,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-
-def process_data(data):
+def divide(x, y):
     try:
-        # Process data
-        result = data / 0  # Example: division by zero
-    except Exception as e:
-        logging.error(f"Error processing data: {str(e)}")
+        result = x / y
+    except ZeroDivisionError:
+        print("Error: Division by zero!")
+    except TypeError:
+        print("Error: Unsupported operation, check your input types!")
+    else:
+        return result
+    finally:
+        print("Execution completed.")
 
-# Example usage
-data = 100
-process_data(data)
+# Example usage:
+print(divide(10, 2))
+print(divide(10, 0))
+
+
+def calculate_area(length, width):
+    assert length > 0 and width > 0, "Dimensions must be positive"
+    return length * width
+
+# Example usage:
+print(calculate_area(5, 4))
+print(calculate_area(-1, 4))
+
+
